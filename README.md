@@ -1,25 +1,50 @@
 printf
 
+
+
 Description
 
-. Printf() is a pre-defined function from the header studio.h
-. Printf() is used to write formatted output to console
-. Example-
-	printf("Hello World!");		output: Hello World!
-	printf("My age is %d", 20);	output: My age is 20
-	where %d is format specifier for integer
 
-The printf function sends formatted output to stdout. A custom _printf() for learning purposes was developed by cohort #8 students Nicks and Musa parsanka. _printf() function format string is a character string, beginning and ending in its initial shift state, if any. These arguments are placed using the percentage '%' operator
+
+The printf() function prints formatted text to the console. A custom _printf() function was developed by Nicks and Musa Parsanka for learning purposes. The _printf() function's format string is a text string that tells the function how to format the text. Arguments are placed in the format string using the percentage (%) symbol.
+
+For example, the following format string would print the value of the variable x as an integer:
+
+Code snippet
+
+     "The value of x is %d"
+
+The %d symbol tells the _printf() function to format the argument as an integer. The value of the variable x would be substituted into the format string, and the _printf() function would print the formatted text to the console.
+
+
 
 Resources
 
-Secrets of printfby Don colton https://www.cypress.com/file/54761/download
+
+
+	.https://www.academia.edu/10297206/Secrets_of_printf_
+	.https://intranet.alxswe.com/concepts/111
+	.https://intranet.alxswe.com/concepts/130
+
 
 Authorized functions and macros
 
-write (man 2 write) malloc (man 3 malloc) free (man 3 free) va_start (man 3 va_start) va_end (man 3 va_end) va_copy (man 3 va_copy) va_arg (man 3 va_arg)
+
+
+	   . write (man 2 write)
+	   . malloc (man 3 malloc)
+	   . free (man 3 free)
+	   . va_start (man 3 va_start)
+	   . va_end (man 3 va_end)
+	   . write (man 2 write)
+	   . va_copy (man 3 va_copy)
+	   . va_arg (man 3 va_arg)
+
+
 
 Compilation
+
+
 
 The code must be compiled this way:
 
@@ -27,5 +52,15 @@ The code must be compiled this way:
 
 As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
 
-The main files will include your main header file (main.h): #include main.h
 
+
+
+
+
+
+Authors ©
+
+
+
+	. Aziddine
+	. omorakwant
